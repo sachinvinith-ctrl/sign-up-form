@@ -1,9 +1,8 @@
 body {
 
+height: 100vh;
 margin: 0;
-border: 0;
-
-
+padding: 0;
 
 }
 
@@ -11,6 +10,26 @@ border: 0;
 .sign-up-container {
 
 display: flex;
+height: 100vh;
+gap: 50px;
+
+}
+
+
+.leaf-image {
+
+width: 500px;
+
+}
+
+
+
+.sign-up-form {
+
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+gap: 50px;
 
 
 }
