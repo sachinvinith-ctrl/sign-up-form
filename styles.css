@@ -11,7 +11,6 @@ padding: 0;
 
 display: flex;
 height: 100vh;
-gap: 50px;
 
 }
 
@@ -37,7 +36,7 @@ margin-top: 50px;
 .style-form {
 
 display: flex;
-gap: 70px;
+gap: 30px;
 
 }
 
@@ -54,5 +53,39 @@ input {
 
 width: 200px;
 height: 20px;
+
+}
+
+label {
+
+font-size: 13px;
+
+}
+
+
+
+.input-form {
+
+display: flex;
+gap: 100px;
+
+}
+
+.style-form {
+
+display: flex;
+flex-direction: column;
+box-shadow: 2.2px 4.3px 4.3px hsl(0deg 0% 0% / 0.43);;
+padding-left: 50px;
+padding-bottom: 50px;
+
+}
+
+
+.heading-words,
+.submit-form {
+
+margin-left: 50px;
+
 
 }
