@@ -38,7 +38,7 @@ width: 500px;
 
 display: flex;
 flex-direction: column;
-margin-top: 50px;
+margin-top: 0px;
 
 
 }
@@ -47,7 +47,6 @@ margin-top: 50px;
 .style-form {
 
 display: flex;
-gap: 30px;
 
 }
 
@@ -112,6 +111,7 @@ margin-bottom: 30px;
 
 margin-left: 50px;
 margin-top: 20px;
+margin-bottom: 30px;
 
 }
 
@@ -200,5 +200,11 @@ color: white;
 
 color: white;
 font-weight: 900;
+
+}
+
+input:user-invalid {
+
+border: 1px solid red;
 
 }
