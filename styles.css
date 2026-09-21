@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Norse;
+    src: url(/font/Norse-Bold.woff2);
+}
+
 body {
 
 height: 100vh;
@@ -128,6 +133,72 @@ a {
 
 text-decoration: none;
 color: #596D48;
+font-weight: 900;
+
+}
+
+.image-container {
+
+position: relative;
+width: 1000px;
+height: 500px;
+background-color: #596D48;
+
+}
+
+.leaf-image {
+
+position: absolute;
+height: 100vh;
+
+}
+
+.odin-logo {
+
+position: absolute;
+height: 120px;
+width: 100px;
+left: 150px;
+top: 20px;
+z-index: 1;
+
+}
+
+.odin-heading {
+
+font-family: Norse, sans-serif;
+font-size: 70px;
+position: absolute;
+color: white;
+top: 200px;
+left: 270px;
+z-index: 1;
+
+}
+
+.transparent-background {
+
+position: absolute;
+background-color: rgba(0, 0, 0, 0.5);
+width: 500px;
+height: 150px;
+top: 200px;
+
+}
+
+.para-position {
+
+position: absolute;
+top: 520px;
+left: 130px;
+color: white;
+
+
+}
+
+.credit {
+
+color: white;
 font-weight: 900;
 
 }
