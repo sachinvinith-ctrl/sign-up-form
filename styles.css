@@ -6,6 +6,12 @@ padding: 0;
 
 }
 
+h1, h2 {
+
+font-weight: 500;
+
+}
+
 
 .sign-up-container {
 
@@ -17,7 +23,7 @@ height: 100vh;
 
 .leaf-image {
 
-width: 900px;
+width: 500px;
 
 }
 
@@ -45,7 +51,6 @@ gap: 30px;
 
 display: flex;
 flex-direction: column;
-gap: 5px;
 
 }
 
@@ -53,8 +58,21 @@ input {
 
 width: 200px;
 height: 20px;
+border: 1px solid #E5E7EB;
+border-radius: 3px;
 
 }
+
+input:focus {
+
+outline: none;
+box-shadow: 0.8px 0.8px 2px;
+border: 1px solid blue;
+
+
+}
+
+
 
 label {
 
@@ -75,9 +93,11 @@ gap: 100px;
 
 display: flex;
 flex-direction: column;
-box-shadow: 2.2px 4.3px 4.3px hsl(0deg 0% 0% / 0.43);;
+box-shadow: 0.5px 0.5px 4px;
 padding-left: 50px;
-padding-bottom: 50px;
+padding-bottom: 20px;
+margin-top: 10px;
+margin-bottom: 30px;
 
 }
 
@@ -86,6 +106,28 @@ padding-bottom: 50px;
 .submit-form {
 
 margin-left: 50px;
+margin-top: 20px;
 
+}
+
+button {
+
+color: white;
+background-color: #596D48;
+border-radius: 10px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 0;
+box-shadow: 2px 2px 2px grey;
+
+}
+
+a {
+
+text-decoration: none;
+color: #596D48;
+font-weight: 900;
 
 }
