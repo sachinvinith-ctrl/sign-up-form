@@ -29,6 +29,8 @@ height: 100vh;
 .leaf-image {
 
 width: 500px;
+position: absolute;
+height: 100vh;
 
 }
 
@@ -40,13 +42,6 @@ display: flex;
 flex-direction: column;
 margin-top: 0px;
 
-
-}
-
-
-.style-form {
-
-display: flex;
 
 }
 
@@ -76,7 +71,18 @@ border: 1px solid blue;
 
 }
 
+.input-form {
 
+display: flex;
+gap: 100px;
+
+}
+
+input:user-invalid {
+
+border: 1px solid red;
+
+}
 
 label {
 
@@ -86,12 +92,7 @@ font-size: 13px;
 
 
 
-.input-form {
 
-display: flex;
-gap: 100px;
-
-}
 
 .style-form {
 
@@ -146,12 +147,6 @@ background-color: #596D48;
 
 }
 
-.leaf-image {
-
-position: absolute;
-height: 100vh;
-
-}
 
 .odin-logo {
 
@@ -203,8 +198,3 @@ font-weight: 900;
 
 }
 
-input:user-invalid {
-
-border: 1px solid red;
-
-}
